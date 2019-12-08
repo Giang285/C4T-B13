@@ -35,19 +35,19 @@ skill = {
 import random
 c = random.randint(0,1)    
 b = input('Skill ban muon dung: ')
-if b == 1  and character['Level:'] >= skill['Skill 1']['Minimum level']:
-    if c > skill['Skill 1']['Hit rate']:
-        print('HIT!!','sat thuong ban gay ra la:',skill['Skill 1']['damage']) 
+if b == 1  and character['Level:'] >= skill['Skill 1:']['Minimum level']:
+    if c > skill['Skill 1:']['Hit rate']:
+        print('HIT!!','sat thuong ban gay ra la:',skill['Skill 1:']['damage']) 
     else:
         print('Skill cua ban da truot')     
-elif b == 2  and character['Level:'] >= skill['Skill 2']['Minimum level']:
-    if c > skill['Skill 2']['Hit rate']:
-        print('HIT!!','sat thuong ban gay ra la:',skill['Skill 2']['damage']) 
+elif b == 2  and character['Level:'] >= skill['Skill 2:']['Minimum level']:
+    if c > skill['Skill 2:']['Hit rate']:
+        print('HIT!!','sat thuong ban gay ra la:',skill['Skill 2:']['damage']) 
     else:
         print('Skill cua ban da truot')
-elif b == 3 and character['Level:'] >= skill['Skill 3']['Minimum level']:
-    if c > skill['Skill 3']['Hit rate']:
-        print('HIT!!','sat thuong ban gay ra la:',skill['Skill 3']['damage']) 
+elif b == 3 and character['Level:'] >= skill['Skill 3:']['Minimum level']:
+    if c > skill['Skill 3:']['Hit rate']:
+        print('HIT!!','sat thuong ban gay ra la:',skill['Skill 3:']['damage']) 
     else:
         print('Skill cua ban da truot')
 else:
